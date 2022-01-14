@@ -21,8 +21,8 @@ import gc
 gc.collect()
 
 # network credentials
-ssid = "Sams_iPhone"
-password = "nysmd23iwjlp"
+ssid = INSERT YOUR WIFI NAME HERE
+password = PASSWORD GOES HERE
 
 # set esp32 as a Wifi station
 station = network.WLAN(network.STA_IF)
