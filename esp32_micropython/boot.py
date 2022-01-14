@@ -39,8 +39,7 @@ while station.isconnected() == False:
 
 print("Network Connection successful")
 # prints ip address (esp?), netmask, gateway, DNS
-# idk why ip addresses are showing up as all zeros
-# for my hotspot, ip: 172.20.10.4
+
 print(station.ifconfig())
 # GPIO2 pin of esp32
 led = Pin(2, Pin.OUT)
