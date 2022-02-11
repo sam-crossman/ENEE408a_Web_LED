@@ -5,3 +5,4 @@ The WebLED project is a voice-controlled smart 8x8 LED grid through Google Assis
 
 Note: If trying to use this code, pins may need to be changed to get it to work with your specific board(s). The setup of the STM32 (i.e. clock speed, PWM duty cycle settings, etc.) may differ for different variations of the STM32 family. 
 
+Another note: I changed the STM32 C file slightly in the final project. In this version, the data read from the UART buffer is not converted from its ascii value, so the comparisons will not work. To fix this, just treat the bytes read via UART as ascii values. 
